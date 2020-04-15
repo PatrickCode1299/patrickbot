@@ -1,0 +1,74 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:cyan;
+	
+
+}
+#message-holder{
+	padding:0;
+	margin:0;
+	margin-top:50px;
+	margin-bottom:100px;
+}
+.unresizable{
+	resize:none;
+	width:95%;
+	box-sizing:border-box;
+	border-radius:50px;
+	font-family:arial;
+	font-weight:bold;
+}
+.chat-btn{
+	float:right;
+	background:forestgreen;
+	border:none;
+	border-radius:50px;
+	border:1px solid white;
+	padding:4px 4px;
+	height:50px;
+	width:50px;
+	cursor:pointer;
+	color:white;
+	vertical-align:top;
+}
+.getbg{
+	background:forestgreen;
+	opacity:0.8;
+	color:white;
+    border-radius:5px;
+    padding:5px 5px;
+    margin-left:5px;
+    margin-top:5px;
+    word-wrap:break-word;
+
+}
+.getbgsecond{
+	background:yellow;
+	opacity:0.8;
+    border-radius:5px;
+    padding:5px 5px;
+    margin-right:5px;
+    margin-top:5px;
+    word-wrap:break-word;
+}
+.custom-btn{
+	margin-right:5px;
+}
+.configure-holder{
+	display:none;
+	width:400px;
+	cursor:pointer;
+}
+.configuretip:hover{
+background-color:black;
+color:white;
+}
+.titletext{
+	resize:none;
+	width:95%;
+	box-sizing:border-box;
+	border-radius:10px;
+	font-family:arial;
+	font-weight:bold;
+}
